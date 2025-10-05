@@ -1,0 +1,10 @@
+:root {
+  --brand-color: var(--brand-color, #C8102E);
+  --background-base: #f8fafc;
+  --text-base: #0f172a;
+}
+
+[data-theme='dark'] {
+  --background-base: #020617;
+  --text-base: #f8fafc;
+}
