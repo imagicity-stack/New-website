@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/theme.css';
+
+:root {
+  --color-brand: var(--brand-color, #c8102e);
+  --color-brand-foreground: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: theme('fontFamily.sans');
+  background: var(--app-bg, #f5f6fb);
+}
+
+[data-theme='dark'] body {
+  --app-bg: #0b1120;
+}
